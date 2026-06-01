@@ -18,7 +18,7 @@ Sistema de monitoramento de uma estação espacial desenvolvido em Java, aplican
 | Pietro Mauer | RM 564345 |
 | Samir Assad | RM 561562 |
 
-**Turma:** 2CC  
+**Turma:** 2CCPX 
 **Disciplina:** Programação Orientada a Objetos  
 **Instituição:** FIAP  
 **Ano:** 2026
