@@ -25,12 +25,12 @@ public abstract class ComponenteEspacial {
 
     public void ligar() {
         this.status = true;
-        System.out.println("✔ [" + nome + "] Componente LIGADO.");
+        System.out.println("[" + nome + "] Componente LIGADO.");
     }
 
     public void desligar() {
         this.status = false;
-        System.out.println("✘ [" + nome + "] Componente DESLIGADO.");
+        System.out.println("[" + nome + "] Componente DESLIGADO.");
     }
 
     // ---- Getters e Setters ----
@@ -42,7 +42,7 @@ public abstract class ComponenteEspacial {
 
     public void setTemperatura(double temperatura) {
         if (temperatura < -273.15) {
-            System.out.println("⚠ Temperatura inválida! Abaixo do zero absoluto.");
+            System.out.println("Temperatura inválida! Abaixo do zero absoluto.");
         } else {
             this.temperatura = temperatura;
         }
