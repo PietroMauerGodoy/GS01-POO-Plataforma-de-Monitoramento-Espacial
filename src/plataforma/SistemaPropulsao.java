@@ -26,7 +26,7 @@ public abstract class SistemaPropulsao extends ComponenteEspacial {
     public void ligarMotor() {
         this.motorLigado = true;
         super.ligar(); // chama o ligar() da classe mãe
-        System.out.println("🚀 Motor de propulsão ativado!");
+        System.out.println(" Motor de propulsão ativado!");
     }
 
     public void desligarMotor() {
